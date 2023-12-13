@@ -1,9 +1,14 @@
 .item{
-    width: 350px;
+    width: 300px;
+    
+}
+.item img{
+    width: 85%;
+    border-radius: 20px;
 }
 
 .item p{
-    margin: 6px 0;
+    margin: 6px 0px;
 }
 
 .item-prices{
