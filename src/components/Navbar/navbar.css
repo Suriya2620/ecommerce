@@ -48,6 +48,7 @@
     display: flex;
     align-items: center;
     gap: 45px;
+    cursor: pointer;
 }
 
 .nav-login-cart button{
