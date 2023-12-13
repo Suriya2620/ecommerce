@@ -17,7 +17,7 @@ const Navbar = () => {
         <li onClick={()=>setMenu('shop')}>Shop {menu==='shop'?<hr/> :<></>}</li>
         <li onClick={()=>setMenu('womens')}>Women {menu==='womens'?<hr/> :<></>}</li>
         <li onClick={()=>setMenu('men')}>Men {menu==='men'?<hr/> :<></>}</li>
-        <li onClick={()=>setMenu('kids')}>Kids {menu==='kids'?<hr/> :<></>}</li>
+        <li onClick={()=>setMenu('kids')}>Kids {menu==='kids'?<hr/> : <></>}</li>
     </ul>
 
     <div className="nav-login-cart">
